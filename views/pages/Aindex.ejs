@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/Aindex.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>                      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />       
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="images/dfav.png" />
+
+  <title dir="rtl">الرئيسيه داتا-برفورمنس</title>
+</head>>
+
+<body>
+  <%- include('../partials/Anavbar') %>
+  <script>
+  
+    jQuery(function($){
+
+        var $navbar=$('.header');
+        $(window).scroll(function(event){
+            var $current=$(this).scrollTop();
+
+            if($current >190){
+                $navbar.addClass('navbar-color');
+            }else{
+                $navbar.removeClass('navbar-color');
+            }
+
+        });
+    });
+
+</script>
+
+<div class="bodyimage">
+  <img src="images/index.jpg "alt="">
+ </div>
+  <section id="introo">
+    <div class="intro ">
+      <p class="p1">داتا بيرفورمانس لتحويل الاعمال</p>
+      <p class="p2" dir="rtl"> أسست في عام 2013 من قبل مجموعة <br> من المنافسين من مختلف المجالات</p>
+    </div>
+
+  </section>
+
+
+  <div class="ad1-container reveal">
+    <div class="ad1-img">
+      <img src="images/data.jpg">
+    </div>
+    <div class="ad1-text">
+      <h1 dir="rtl">رؤيتنا </h1>
+      <p dir="rtl">تتمثل رؤيتنا في ترسيخ أنفسنا كمزود الخدمة الأول والأكثر موثوقية في تحويل الأعمال للشركات عبر منطقة الشرق الأوسط وشمال إفريقيا. نطمح لأن نكون القوة الدافعة وراء تطور ونمو الأعمال التجارية ، وتمكينها من التنقل في المشهد الديناميكي بثقة وابتكار.
+      </p>
+      <form action="/Aourservices">
+        <button class="ad1-btn" dir="rtl">
+          خدماتنا
+        </button>
+      </form>
+      
+    </div>
+  </div>
+  <div class="ad2-container reveal">
+    <div class="ad2-text">
+      <h1 dir="rtl">مهمتنا</h1>
+      <p dir="rtl">لإنشاء حلول أعمال متكاملة ومستدامة وفعالة باستخدام أحدث أدوات البناء لتحقيق أهداف شركائنا. يجب تصميم عمليات الأعمال لدينا لخدمة عملائنا بسهولة وبطريقة مستجيبة.
+      </p>
+      <form action="/Aaboutus">
+        <button class="ad2-btn" dir="rtl">
+          اكتشف المزيد
+        </button>
+      </form>
+    
+    </div>
+    <div class="ad2-img">
+      <img src="images/data2.jpg">
+    </div>
+
+  </div>
+
+
+  <div class="slide-text reveal">
+    <p class="slidetext" dir="rtl">حلول نقترحها</p>
+
+  <div class="slideshow-container reveal">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 8</div>
+      <img src="images/business.jpg" style="width:100%">
+      <div class="text" dir="rtl">الاستشارات المالية والتشغيلية</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 8</div>
+      <img src="images/img3.jpg" style="width:100%">
+      <div class="text" dir="rtl">توفير إجراءات الأعمال وسير العمل</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 8</div>
+      <img src="images/mc.jpg" style="width:100%">
+      <div class="text" dir="rtl">استشارات تخطيط التسويق</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 8</div>
+      <img src="images/data.jpg" style="width:100%">
+      <div class="text" dir="rtl">توحيد البيانات لمجموعة الشركات</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"> 5/ 8</div>
+      <img src="images/erp.jpg" style="width:100%">
+      <div class="text" dir="rtl">توفير نظام تخطيط موارد المؤسسات الآلي</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"> 6/ 8</div>
+      <img src="images/businessplann.jpg" style="width:100%">
+      <div class="text" id="businessplan" dir="rtl">تقديم خطة العمل</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"> 7/ 8</div>
+      <img src="images/mcc.jpg" style="width:100%">
+      <div class="text" dir="rtl">التسويق النشط</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"> 8/ 8</div>
+      <img src="images/financialanalysis.jpeg" style="width:100%">
+      <div class="text" dir="rtl">تنظيم التحليل المالي</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+  </div>
+
+
+  </div>
+
+
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+
+
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+      var reveals = document.querySelectorAll('.reveal');
+      for (var i = 0; i < reveals.length; i++) {
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if (revealtop < windowheight - revealpoint) {
+          reveals[i].classList.add('active');
+        }
+
+      }
+    }
+  </script>
+
+
+
+
+
+
+
+<div class="contacting">
+
+  <p class="p3" dir="rtl" style="font-size: 30px;font-weight: 400;"> هيا لنتواصل<br><a href="/Acontactus"><button class="contactbtn"   dir="rtl">تواصل معنا الان!</button> </a> </p>
+</div>
+  <!-- footer -->
+  <%- include('../partials/Afooter') %>
+
+</body>
+
+</html>

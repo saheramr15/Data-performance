@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Aourclients.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/dfav.png" />
+
+    <title>عملائنا داتا-برفورمنس</title>
+</head>
+<body>
+    <%- include('../partials/Anavbar') %>
+    <script>
+  
+        jQuery(function($){
+
+            var $navbar=$('.header');
+            $(window).scroll(function(event){
+                var $current=$(this).scrollTop();
+
+                if($current >190){
+                    $navbar.addClass('navbar-color');
+                }else{
+                    $navbar.removeClass('navbar-color');
+                }
+
+            });
+        });
+
+    </script>
+
+
+            <section>
+                <div class="bodyimage">
+                <img src="/images/clients3.jpg" alt="">
+                </div>
+            </section>
+
+
+  
+    
+        <h1 id="oc" dir="rtl">عملائنا</h1> 
+        <hr>
+        <div class="container">
+            
+            <div class="box">
+                <img src="images/swedy.png" alt="" class="swedy">
+            </div>
+            <div class="box">
+                <img src="images/swedy2.png" alt="" class="swedy">
+            </div>
+            <div class="box">
+                <img src="images/tracklogo.png" alt=""  class="img" id="track">
+            </div>
+            <div class="box">
+                <img src="images/alpha.png" alt="" class="img" id="alpha">
+            </div>
+            <div class="box">
+                <img src="images/vida.png" alt="" class="img" id="vida">
+            </div>
+            <div class="box">
+                <img src="images/riadco.png" alt="" class="img" id="riadco">
+            </div>
+            <div class="box">
+                <img src="images/rich.png" alt="" class="img" id="rich">
+            </div>
+            <div class="box">
+                <img src="images/human.png" alt="" class="img" id="human">
+            </div>
+            <div class="box">
+                <img src="images/gled.png" alt="" class="img" id="gled">
+            </div>
+
+            <div class="box">
+                <img src="images/odoo.png" id="odoo" alt="" class="img">
+            </div>
+           
+            <div class="box">
+                <img src="images/ilnerorem.png" alt="" class="img" id="ilnero">
+            </div>
+
+            <div class="box">
+                <img src="images/gizz.png" id="gz" alt="" class="img">
+            </div>
+            <div class="box">
+                <img src="images/alexrem.png"   alt="" class="img" id="alex">
+            </div>
+            <div class="box">
+                <img src="images/hassan.jpeg"  alt="" class="img" id="hasan">
+            </div>
+            <div class="box">
+                <img src="images/ridge.jpeg" id="ridge" alt="" class="img">
+            </div>
+            <div class="box">
+                <img src="images/elkasr.jpg" id="elkasr" alt="" class="img">
+            </div>
+            <div class="box">
+                <img src="images/erp.png" id="erp" alt="" class="img">
+            </div>
+            <div class="box">
+                <img src="images/fawater.jpeg" id="fawater" alt="" class="img">
+            </div>
+            <div class="box">
+                <img src="images/seha.png" id="seha" alt="" class="img">
+            </div>
+            <div class="box">
+                <img src="images/siena.png" id="siena" alt="" class="img">
+            </div>
+
+            <div class="box">
+                <img src="images/astrazeneca.png" id="astrazenca" alt="" class="img">
+            </div>
+
+            <div class="box">
+                <img src="images/cityclinic.png" id="city" alt="" class="img">
+            </div>
+            <div class="box">
+                <img src="images/egy.png" alt="" class="img" id="egy">
+            </div>
+          
+            <div class="box">
+                <img src="images/jzerarem.png" id="gzera" alt="" class="img">
+            </div>
+
+        </div>
+
+     
+       
+<%- include('../partials/Afooter') %>
+
+</body>
+</html>
