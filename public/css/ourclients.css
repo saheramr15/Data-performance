@@ -234,6 +234,7 @@ body {
          margin-left: 30px;
          margin-top: 10px;
          border-bottom: 2px solid rgba(94, 148, 185, 0.422);
+         animation: 6s;
      }
      
      .bodyimage img  {
@@ -246,6 +247,12 @@ body {
         z-index: 100;
          
     }
+.container .box:hover{
+position: relative;
+top: -20px;
+}
+
+
 /* logos */
 .swedy{
     position: relative;
@@ -262,15 +269,22 @@ body {
     position: relative;
     left: 50px;
 }
+#sia{
+    position: relative;
+    width: 260px;
+    top: 30px;
+    left: 35px; 
+}
 #vida{
     position: relative;
     top: 36px;
     left: 50px;
 }
-#riadco{
+#gezira{
     position: relative;
-    width: 300px;
-    top: 53px;
+    width: 200px;
+    top: -34px;
+    left: 50px;
     
 }
 #rich{
@@ -331,10 +345,10 @@ body {
     padding: 55px;
 }
 
-#erp{
+#gest{
     position: relative;
-    width: 170px;
-    top: 10px;
+    width: 140px;
+    top: -30px;
     padding: 55px;
 }
 #seha{
@@ -362,15 +376,54 @@ body {
     margin-top: -24px;
     padding: 55px;
 }
-#odoo{
-    width: 170px;  
-    padding: 55px;
+#quick{
+    position: relative;
+    width: 180px;  
+    top: 20px;
+    left: 50px;
+    /* padding: 55px; */
 }
 #gzera{
     width: 200px;
     margin-top: -60px;
     padding: 55px;
 }
+#gomla{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#urc{
+    width: 240px;
+    margin-top: 36px;
+    margin-left: 34px;   
+}
+#manazel{
+    width: 154px;
+    margin-top: 36px;
+    margin-left: 60px;   
+}
+#aswar{
+    width: 120px;
+    margin-top: 36px;
+    margin-left: 80px;
+}
+#kwik{
+    width: 230px;
+    margin-top: -30px;
+    margin-left: 35px;
+}
+#express{
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+#fedex{
+    width: 160px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
 
 .img{
     width: 200px;
@@ -507,13 +560,17 @@ margin-top: 8px;
     }
 
 }
-@media(max-width: 765px) {
-    
+
+@media(max-width: 900px) {
+    .bodyimage img{
+        margin-top: 280px;
+    }
 
 }
-@media(max-width: 718px) {
+
+@media(max-width: 490px) {
     
-   #oc{
-          margin-top: 5px;
-    }
+    .container {
+          margin-left: -5px;
+    } 
 }

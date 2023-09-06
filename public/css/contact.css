@@ -373,30 +373,7 @@ body {
     top: -3px;
     color: #8d0303;
  }
-@media (max-width: 800px)
-{
-    .content{
-        margin-bottom: 30%;
-        background: transparent;
-    }
-    .contact{
-        margin-top: 70%;
-        padding: 50px;
-        max-width: 100%;
-        margin-bottom: 50%;
-    }
-    .containers{
-        flex-direction: column;
-        width: 100%;
-    }
-    .contactInfo
-    {
-        float: left;
-    }
-    .contactForm{
-        width: 100%;
-    }
-}
+
 /* contact form end*/
 
 /* footer */
@@ -526,3 +503,44 @@ margin-top: 8px;
     }
 
 }
+
+@media(max-width: 524px) {
+
+    .bodyimage img {
+         margin-top: -200px;
+    }
+    .contactForm {
+        position: relative;
+       padding-bottom: 200px;
+    }
+    
+}
+
+@media (max-width: 800px)
+{
+    .content{
+        margin-top: 280px;
+        margin-bottom: 400px;
+        background: transparent;
+    }
+    .contact{
+        margin-top: 70%;
+        padding: 50px;
+        max-width: 100%;
+        margin-bottom: 50%;
+    }
+    .containers{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactInfo
+    {
+        float: left;
+    }
+    .contactForm {
+        position: relative;
+         left: -100px;
+        width: 100%;
+    }
+}
+

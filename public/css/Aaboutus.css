@@ -551,6 +551,21 @@ margin-top: 8px;
     }
 
 }
+@media screen and (max-width: 690px) {
+
+    .container{
+        height: 735px;
+    }
+   
+
+}
+@media screen and (max-width: 580px) {
+    .bodyimage img {
+
+        top: -50px;
+    }
+
+}
 @media(max-width: 1080) {
     .f-col {
         width: 50%;
