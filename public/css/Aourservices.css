@@ -172,8 +172,8 @@ body {
             left: 0;
             width: 100%;
             height: 0;
-            background-color: #7082a023;
-            backdrop-filter: blur(50px);
+            background-color: #12141858;
+            backdrop-filter: blur(120px);
             transition: .3s ease;
             overflow: hidden;
             
@@ -518,7 +518,9 @@ margin-top: 8px;
 }
 }
 @media(max-width: 560px) {
-
+    .container {
+        margin-left: -50px;
+    }
     .container2 .box1 img{
         width: 90px;
     }
