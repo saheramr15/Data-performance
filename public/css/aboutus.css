@@ -171,8 +171,8 @@ body {
             top: 100%;
             left: 0;
             width: 100%;
-            height: 0;  background-color: #7082a023;
-            backdrop-filter: blur(50px);
+            background-color: #12141858;
+            backdrop-filter: blur(120px);
             transition: .3s ease;
             overflow: hidden;
             
@@ -242,6 +242,13 @@ font-weight: 300;
 .container .box p{
     
     color: white;
+}
+.box #eye{
+    margin-top: -100px;
+}
+ 
+#location{
+    margin-top: 20px;
 }
 
 .container2{
